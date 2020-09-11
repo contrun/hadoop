@@ -106,9 +106,9 @@ import static org.apache.hadoop.fs.impl.PathCapabilitiesSupport.validatePathCapa
  *
  * <p>
  * The local implementation is {@link LocalFileSystem} and distributed
- * implementation is DistributedFileSystem. There are other implementations
- * for object stores and (outside the Apache Hadoop codebase),
- * third party filesystems.
+ * implementation is {@link org.apache.hadoop.hdfs.DistributedFileSystem}.
+ * There are other implementations for object stores and (outside the
+ * Apache Hadoop codebase),third party filesystems.
  * <p>
  * Notes
  * <ol>
